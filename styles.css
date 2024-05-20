@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SoDo Sans SemiBold"
+}
+
+:root{
+    --main-color1: #ffffff;
+    --main-color2: #1e3932;
+    --main-color3: #d4e9e2;
+    --main-color4: #008248;
+    --main-color5: #f1f8f6;
+    --main-color6: #F2F0EB;
+
+}
+
+.fixed-header{
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: var(--main-color1);
+    align-items: center;
+    padding: 22px;
+    width: 100%;
+    max-width: 1680px;
+    margin: 0 auto;
+}
+
+.fixed-header div{
+    display: flex;
+    align-items: center ;
+    gap: 30px;
+}
+
+
+
+.header-lists-base{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;   
+    align-items: center;
+}
+
+
+.header-button-base{
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-color: var(--main-color1);
+}
+
+.header-button2{
+    background-color: black;
+    color: white;
+}
+
+
+.sticky-header{
+    background-color: var(--main-color2);
+}
+
+.sticky-header-text{
+
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    background-color: var(--main-color2);
+    color: var(--main-color1);
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.hero-section{
+    height: 800px;
+    background-color: var(--main-color3);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.hero-image{
+    background-repeat: no-repeat;
+    background: url(images/hero-background.webp);
+}
+
+
+.section-main-text h1{
+    font-size: 2em;
+}
+
+.section-main-text h4{
+    font-size: 1em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.hero-text-button{
+    background-color: var(--main-color4);
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+
+.introduction-text-1{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    margin: 100px 10px 50px 10px
+}
+
+.main-text-1{
+    display: flex;
+    width: 100%;
+    max-width: 1470px;
+    margin: 0 auto;
+
+
+}
+
+.main-text-1 div{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.circle{
+    border: 2px solid var(--main-color4);
+    padding: 10px 15px 10px 15px;
+    border-radius: 200%;
+    margin-bottom: 20px;
+    color: var(--main-color4);
+    text-align: center;
+}
+
+.third-section-reward-selection h1{
+    text-align: center;
+    margin: 90px 10px 40px 10px;
+    background-color: var(--main-color5);
+    padding: 40px 0px 0px 0px;
+
+}
+
+.drink-selector{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.3em;
+    
+}
+
+.background{
+    background-color: var(--main-color5);
+
+}
+
+.drink-selector h3{
+    padding: 10px 30px 10px 30px;
+
+
+}
+
+.drink-selector h3:first-child {
+    border-bottom: 4px solid var(--main-color4);
+}
+
+.drink-selection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color3);
+}
+
+
+
+.fourth-section-extra h1{
+    text-align: center;
+    margin-top: 120px; 
+    margin-bottom: 20px;
+}
+
+.fourth-section-extra p{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.extras-demo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extras-demo div{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fifth-section-payment{
+    padding: 60px 0px 60px 0px;
+    background-color: var(--main-color6);
+    text-align: center ;
+    
+}
+
+
+
+.first-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    border-bottom: 1px solid lightgray;
+
+}
+
+
+.first-column div{
+    display: flex ;
+    align-items: center;
+    text-align: start;
+    margin-left: 20px;
+    
+}
+
+.first-column div h1{
+    margin-bottom: 10px;
+    
+}
+
+
+.first-column img{
+    position: relative;
+    top: 30px
+
+}
+
+
+.dollar-text > *{
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+}
+
+.dollar-text{
+    display: flex;
+    justify-content: center;
+}
+.first-column .dollar-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.fifth-section-payment .first-column{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "SoDo Sans SemiBold";
+    src: url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.eot");
+    src: url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/d7e8a95865396cddca89b00080d2cba6.svg#SoDo Sans SemiBold")format("svg");
+}

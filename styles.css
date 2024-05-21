@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "SoDo Sans SemiBold"
+    font-family: "SoDo Sans SemiBold";
 }
 
 :root{
@@ -207,13 +207,11 @@
 }
 
 .fifth-section-payment{
-    padding: 60px 0px 60px 0px;
+    padding: 60px 0px 10px 0px;
     background-color: var(--main-color6);
     text-align: center ;
     
 }
-
-
 
 .first-column{
     display: flex;
@@ -268,14 +266,53 @@
     align-items: center;
 }
 
+.banks-text{
+    display: flex;
+    flex-flow: row ;
+    height: 450px;
+    align-items: center ;
+    justify-content: center;
+    gap: 40px;
+
+}
+
+.banks-text div{
+    display: flex;
+    flex-direction: column  ;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
 
 
+.sixty-section-bank h1{
+    padding-top: 50px;
 
+}
+.sixty-section-bank{
+    text-align: center;
+    background: url("images/background.webp");
+    background-repeat: no-repeat;
+    padding: 20px 20px 20px 20px;
+    overflow: hidden;
 
+}
 
+.second-background{
+    background-color: #D4E9E2;
+    background-size: cover;
+    
 
+}
 
-
+.join-button{
+    border: none;
+    background-color: var(--main-color4);
+    color: var(--main-color1);
+    padding: 10px;
+}
 
 
 

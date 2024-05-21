@@ -12,6 +12,7 @@
     --main-color4: #008248;
     --main-color5: #f1f8f6;
     --main-color6: #F2F0EB;
+    --main-color7: #F9F9F9
 
 }
 
@@ -289,6 +290,7 @@
 
 .sixty-section-bank h1{
     padding-top: 50px;
+    padding-bottom: 30px;
 
 }
 .sixty-section-bank{
@@ -314,13 +316,72 @@
     padding: 10px;
 }
 
+.gambiarra{
+    color: var(--main-color6);
+    padding-bottom: 20px;
+}
+
+
+.seventh-section-faq{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+.seventh-section-faq h1{
+    font-size: 1.7em;
+    margin-bottom: 20px;
+    
+}
+.questions-text{
+    display: flex;
+    flex-flow: column;
+    
+}
+
+.eigth-section-info{
+
+    background-color: var(--main-color7);
+}
+
+
+.background-test{
+    font-size: 0.9em;
+    display: flex;
+    flex-flow: column wrap  ;
+    align-items: center;
+    justify-content: center;
+    margin:  0 auto;
+    background-color: var(--main-color7);
+    max-width: 1300px
+}
+
+.paragraph-base p{
+    margin-bottom: 13px;
+    font-weight: 100;
+
+}
+
+.paragraph-base h4{
+    color: gray;
+    font-size: 1.3em;
+}
+
+.second-column-info{
+    display: flex;
+    justify-content: center;
+    font-size: 0.9em;
+
+}
 
 
 
 
-
-
-
+.second-column-info .info-text-2{
+    display: flex;
+    flex-direction: column;
+}
 
 
 @font-face {
